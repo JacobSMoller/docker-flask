@@ -1,0 +1,7 @@
+version: "2"
+services:
+  my_app:
+    build:
+      .
+    ports:
+      - "80:5000"
